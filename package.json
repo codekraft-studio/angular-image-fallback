@@ -1,0 +1,27 @@
+{
+  "name": "angular-image-fallback",
+  "version": "0.0.1",
+  "description": "a directive to catch bad image sources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node node_modules/grunt/bin/grunt"
+  },
+  "keywords": [
+    "angularjs",
+    "directive",
+    "image",
+    "fallback"
+  ],
+  "author": "codekraft-studio",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codekraft-studio/angular-image-fallback.git"
+  }
+}

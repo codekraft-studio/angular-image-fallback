@@ -1,0 +1,26 @@
+html, body { width: 100%; min-height: 100%; position: relative; margin: 0;height: 100%;padding: 0; font-family: 'r', sans-serif; color: #555; }
+
+article header {margin-bottom: 20px;color: #23282E;padding: 20px 0;width: 100%;border-bottom: 3px solid #337ab7;background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);}
+article header h1, article header h2 { margin: 0;padding: 0;vertical-align: middle;color: whitesmoke;outline: black;}
+article header h1 { font-weight: 700;font-size: 3em; font-family: 'rs'; }
+article header h2 { font-weight: 600;font-size: 2em; font-family: 'rs'; }
+article section {padding: 0px 10%;}
+
+section h1 { font-size: 2em; color: #1AC3CB; }
+section h2 { font-size: 1.8em; color: #1AC3CB; }
+section h3 { font-size: 1.4em; color: #1AC3CB; }
+section p { font-size: 1.2em; line-height: 30px; }
+
+div.hcont {width: 80%;margin: 0 auto;position: relative;}
+div.col-third { width: 33%; float: left; }
+
+.example-row {
+  width: 100%;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.example-row img.thumb {
+  width: 150px;
+  height: 150px;
+}
