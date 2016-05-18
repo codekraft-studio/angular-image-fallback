@@ -23,4 +23,5 @@ div.col-third { width: 33%; float: left; }
 .example-row img.thumb {
   width: 150px;
   height: 150px;
+  background-color: #eee;
 }
