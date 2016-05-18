@@ -43,3 +43,23 @@ The default fallback image is taken from Google Icons and is under the [CC BY (C
 ```
 
 If the **custom image loading fails**, the default one will be used instead.
+
+### Service API:
+
+You can use the imageFallbackService to customize globally the module settings:
+
+* **getDefaultImage**: get the default module fallback image
+* **setDefaultImage**: set a new default module fallback image
+
+```javascript
+angular.module('app')
+.controller('MainCtrl', function (imageFallbackService) {
+
+  // get the default images
+  var defaultImg = imageFallbackService.getDefaultImage();
+
+  // set the default images
+  imageFallbackService.setDefaultImage( 'myImage.jpg' );
+
+})
+```
