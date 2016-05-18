@@ -44,9 +44,11 @@ The default fallback image is taken from Google Icons and is under the [CC BY (C
 
 If the **custom image loading fails**, the default one will be used instead.
 
-### Service API:
+---
 
-You can use the imageFallbackService to customize globally the module settings:
+### Service methods:
+
+You can use the imageFallbackService to customize the module settings for you app:
 
 * **getDefaultImage**: get the default module fallback image
 * **setDefaultImage**: set a new default module fallback image
@@ -55,10 +57,10 @@ You can use the imageFallbackService to customize globally the module settings:
 angular.module('app')
 .controller('MainCtrl', function (imageFallbackService) {
 
-  // get the default images
+  // get the default image
   var defaultImg = imageFallbackService.getDefaultImage();
 
-  // set the default images
+  // set the default image
   imageFallbackService.setDefaultImage( 'myImage.jpg' );
 
 })
