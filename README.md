@@ -1,6 +1,8 @@
 # angular-image-fallback
 a directive that handle errors in images loading
 
+### [DEMO](http://www.codekraft.it/demos/angular-image-fallback/)
+
 ### Getting started:
 
 Download the package from GitHub.
