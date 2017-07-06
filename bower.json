@@ -1,0 +1,23 @@
+{
+  "name": "angular1-image-fallback",
+  "description": "a directive to catch bad image sources",
+  "main": "dist/angular-image-fallback.js",
+  "authors": [
+    "codekraft-studio"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angularjs",
+    "directive",
+    "image",
+    "fallback"
+  ],
+  "homepage": "https://github.com/codekraft-studio/angular-image-fallback",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
