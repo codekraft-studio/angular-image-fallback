@@ -1,28 +1,35 @@
 # angular-image-fallback
-a directive that handle errors in images loading
+> angularjs directive that handle errors during images loading
 
 ### [DEMO](http://www.codekraft.it/demos/angular-image-fallback/)
 
-### Getting started:
+## Getting started:
 
-Download the package from GitHub.
+You can clone the package from GitHub:
 ```bash
 git clone https://github.com/codekraft-studio/angular-image-fallback.git
 ```
 
-Or use it from the GitHub CDN:
+Install it via Bower:
+```bash
+bower install --save angular1-image-fallback
+```
+
+Use it from the GitHub CDN:
 ```html
 <script type="text/javascript" src="https://cdn.rawgit.com/codekraft-studio/angular-image-fallback/master/dist/angular-image-fallback.min.js"></script>
 ```
 
-Add __angular-progress__ to your module dependencies:
+Than add __angular-progress__ to your application dependencies:
 ```javascript
 angular.module('app', ['angular-image-fallback'])
 ```
 
+Now you are ready to use the **image-fallback** directive.
+
 ---
 
-### How does it works:
+## How does it works:
 
 The directive should be used in combination with **ng-src** attribute, because the value of **src** attribute will be evaluated before the directive and angularjs itself is fully loaded.
 
@@ -32,7 +39,7 @@ The default fallback image is taken from Google Icons and is under the [CC BY (C
 
 ---
 
-### Example:
+## Example:
 
 ```html
 
@@ -48,7 +55,7 @@ If the **custom image loading fails**, the default one will be used instead.
 
 ---
 
-### Service methods:
+## Service methods:
 
 You can use the imageFallbackService to customize the module settings for you app:
 
@@ -67,3 +74,16 @@ angular.module('app')
 
 })
 ```
+
+---
+
+## Contributing
+
+1. Create an issue and describe your idea
+2. Fork the project (https://github.com/codekraft-studio/angular-image-fallback/fork)
+3. Create your feature branch (`git checkout -b my-new-feature`)
+4. Commit your changes (`git commit -am 'Add some feature'`)
+5. Publish the branch (`git push origin my-new-feature`)
+6. Add some test for your new feature
+7. Create a new Pull Request
+
